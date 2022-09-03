@@ -24,6 +24,12 @@
         - separate: 2 pods using stable build, 1 pod using risky build (all share the same label)
         - diff depl name
     - approach 2 (istio)
+- session affinity
+    - consistent hashing
+    - doesn't work with weighted routing
+- gateways:
+    - ingress gateway (k8s)
+    - istio gateway: custom routing rules for edge service in the cluster (to which clients hit directly)
 
 ## what
 - tool that's deployed along with k8s
