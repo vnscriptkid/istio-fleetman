@@ -67,3 +67,6 @@
 
 ## Batch reqs using Bash
 - `while true; do curl http://localhost:30080/api/vehicles/driver/London%20Riverside; echo; sleep 0.5; done;`
+
+## TODO
+- https://blog.risingstack.com/distributed-tracing-opentracing-node-js/
